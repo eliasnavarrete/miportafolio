@@ -68,21 +68,87 @@
     </div>
   </section>
 
-  <section id="exp" class="exp-section my-5 py-5">
+  <section id="exp" class="exp-section text-center my-5 py-5">
     <div class="container">
-      <h2 class="text-center">Experiencia</h2>
+      <h2 class="pb-5">Experiencia</h2>
+      <div class="row row-cols-1 row-cols-md-3">
+        <div class="col pb-3">
+          <h3 class="h1 text-danger"><a href="#corporacion" data-toggle="modal" data-target="#corporacion"><i class="fas fa-landmark" data-container="body" data-toggle="popover" data-trigger="hover" data-placement="bottom" data-content="Click para más información"></i></a></h3>
+          <h4>Corporación Patrimonio Militar</h4>
+          <p>2008-2013</p>
+        </div>
 
-      <h3><i class="fas fa-landmark"></i></h3>
-      <p>Corporación Patrimonio Militar</p>
-      <p>2008-2013</p>
+        <div class="col pb-3">
+          <h3 class="h1 text-danger"><a href="#" data-toggle="modal" data-target="#ejercito"><i class="fas fa-chalkboard-teacher" data-container="body" data-toggle="popover" data-trigger="hover" data-placement="bottom" data-content="Click para más información"></i></a></h3>
+          <h4>Ejército de Chile</h4>
+          <p>2013-2016</p>
+        </div>
 
-      <h3><i class="fas fa-taxi"></i></h3>
-      <p>Museo Histórico Carabineros de Chile</p>
-      <p>2013-2020</p>
-
+        <div class="col pb-3">
+          <h3 class="h1 text-danger"><a href="#" data-toggle="modal" data-target="#carabineros"><i class="fas fa-monument" data-container="body" data-toggle="popover" data-trigger="hover" data-placement="bottom" data-content="Click para más información"></i></a></h3>
+          <h4>Carabineros de Chile</h4>
+          <p>2013-2020</p>
+        </div>
+      </div>
     </div>
-
   </section>
+
+  <div class="modal fade" id="corporacion" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalCenterTitle">Corporación</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          Prueba
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal fade" id="ejercito" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalCenterTitle">Ejército de Chile</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          Prueba
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal fade" id="carabineros" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalCenterTitle">Carabineros de Chile</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          Prueba
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+        </div>
+      </div>
+    </div>
+  </div>
 
   <section id="works" class="works-section bg-danger my-5 py-5">
     <div class="container">
@@ -93,8 +159,9 @@
           <div class="card">
             <img src="assets/img/meet_coffee.png" class="card-img-top" alt="Meet&Coffee">
             <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              <h5 class="card-title">Meet&Coffee</h5>
+              <p class="card-text">Página diseñada para promocionar un café donde se realizan charlas y conferencias.</p>
+              <a href="#" class="btn btn-primary" target="_blank">Link a la página</a>
             </div>
           </div>
         </div>
@@ -102,8 +169,9 @@
           <div class="card">
             <img src="assets/img/iguana_page.png" class="card-img-top" alt="Iguana Page">
             <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              <h5 class="card-title">Iguana Page</h5>
+              <p class="card-text">Conoce más de las iguanas, sus características y particularidades a través de esta página.</p>
+              <a href="#" class="btn btn-primary" target="_blank">Link a la página</a>
             </div>
           </div>
         </div>
@@ -111,8 +179,9 @@
           <div class="card">
             <img src="assets/img/suricata.png" class="card-img-top" alt="Suricata">
             <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              <h5 class="card-title">Suricata</h5>
+              <p class="card-text">Las mejores colaciones, desayunos, bebidas, verduras, dulces y empanadas disponibles a través de Suricata.</p>
+              <a href="#" class="btn btn-primary" target="_blank">Link a la página</a>
             </div>
           </div>
         </div>
@@ -120,8 +189,9 @@
           <div class="card">
             <img src="assets/img/cuppon.png" class="card-img-top" alt="Cuppon">
             <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              <h5 class="card-title">Cuppon</h5>
+              <p class="card-text">Cupones de descuento en una amplia variedad de productos y servicios.</p>
+              <a href="#" class="btn btn-primary" target="_blank">Link a la página</a>
             </div>
           </div>
         </div>
@@ -129,8 +199,9 @@
           <div class="card">
             <img src="assets/img/ricomida.png" class="card-img-top" alt="Ricomida">
             <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              <h5 class="card-title">Ricomida</h5>
+              <p class="card-text">Prepara, guarda y comparte las mejores recetas a través del portal de Ricomida.</p>
+              <a href="#" class="btn btn-primary" target="_blank">Link a la página</a>
             </div>
           </div>
         </div>
@@ -138,8 +209,9 @@
           <div class="card">
             <img src="assets/img/fuenteshistoricas.png" class="card-img-top" alt="Fuentes Históricas">
             <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              <h5 class="card-title">Fuentes Históricas</h5>
+              <p class="card-text">Página personal de fuentes históricas editables a disposición de historiadores.</p>
+              <a href="http://www.fuenteshistoricas.cl" class="btn btn-primary" target="_blank">Link a la página</a>
             </div>
           </div>
         </div>
@@ -173,14 +245,16 @@
     </div>
   </section>
 
-  <footer class="bg-danger text-white mt-5 py-5">
+  <footer class="bg-danger text-white text-center mt-5 py-5">
     <div class="container">
-      <div class="row">
-        <p class="h3 col-8"><span>Elías Navarrete Sobarzo</span></p>
-        <a href="www.github.com" class="col-1"><i class="h3 text-white fab fa-github-square"></i></a>
-        <a href="www.linkedin" class="col-1"><i class="h3 text-white fab fa-linkedin"></i></a>
-        <a href="www.twitter.com" class="col-1"><i class="h3 text-white fab fa-twitter-square"></i></a>
-        <a href="www.facebook.com" class="col-1"><i class=" h3 text-white fab fa-facebook-square"></i></a>
+      <div class="row row-cols-1 row-cols-md-2">
+        <p class="h3"><span>Elías Navarrete Sobarzo</span></p>
+        <div class="icons">
+          <a href="www.github.com" class="col-1"><i class="h3 text-white fab fa-github-square"></i></a>
+          <a href="www.linkedin" class="col-1"><i class="h3 text-white fab fa-linkedin"></i></a>
+          <a href="www.twitter.com" class="col-1"><i class="h3 text-white fab fa-twitter-square"></i></a>
+          <a href="www.facebook.com" class="col-1"><i class=" h3 text-white fab fa-facebook-square"></i></a>
+        </div>
       </div>
     </div>
   </footer>

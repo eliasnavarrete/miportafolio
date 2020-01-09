@@ -26,7 +26,7 @@ header {
 
 @media (max-width: 768px) {
   header {
-    background-image: url('../img/bg-img2.JPG');
+    background-image: url('../img/bg-img2.jpg');
   }
 
   h1:before {
